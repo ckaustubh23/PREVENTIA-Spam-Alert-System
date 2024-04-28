@@ -14,3 +14,6 @@ The project focuses on the detection of detection of content of the mateiral of 
 •	Step3: Change the address of your system in the app.py file according to your system in the tfidf and model files
 •	Step4: Run the command in your terminal "python app.py"
 •	This will run the project in the local host
+
+![image](https://github.com/ckaustubh23/PREVENTIA-Spam-Alert-System/assets/109577773/27fe4b94-4156-4e63-bf92-f89382c4018f)
+
