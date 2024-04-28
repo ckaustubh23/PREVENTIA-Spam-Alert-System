@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PREVENTIA: SPAM ALERT SYSTEM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/index.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand">Preventia: Spam Alert System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <form action="/predict" method="post">
+            <div class="form-group">
+                <label for="content" class="label-light">Enter the content</label>
+                <textarea class="form-control" id="content" name="content" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="option" class="label-light">Select an option</label>
+                <select class="form-control" id="option" name="option">
+                    <option value="EMAIL">EMAIL</option>
+                    <option value="SMS">SMS</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Predict</button>
+        </form>
+    </div>
+    <div id="abstract" class="container mt-5">
+        <h1>Abstract</h1>
+        <p>In the ever-evolving landscape of digital communication, the proliferation of spam content continues to be a pressing concern.
+        The "Preventia: Spam Alert System" project aims to tackle this challenge head-on by implementing a comprehensive and intelligent solution for identifying and classifying spam.
+        Through the application of the Naive Bayes algorithm, the system gains the ability to process vast amounts of data efficiently and make probabilistic predictions about whether incoming content is spam or legitimate.
+        To bolster its capabilities further, the Spam Alert System integrates cutting edge technologies like natural language processing (NLP) to comprehend textual content more effectively.
+        Subsequently, the Naive Bayes classifier evaluates the content, assigning a probability score that determines the likelihood of it being spam.
+        The Spam Alert System's successful implementation delivers a powerful and flexible solution to the problem of spam, endowing users with heightened security and protection from fraudulent activities and potential privacy breaches.
+        With seamless integration into popular communication platforms, users can enjoy real-time defence against malicious content across email, messaging services, and web browsers.</p>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Preventia: Spam Alert System.</p>
+        <p>
+            Creators<br>
+            <a href="https://www.linkedin.com/in/kaustubh-chaubey/" target="_blank">Kaustubh Chaubey</a> |
+            <a href="https://www.linkedin.com/in/naufilsiddique/" target="_blank">Naufil Ahmed Siddique</a> |
+            <a href="https://www.linkedin.com/in/ayushsingh2711/" target="_blank">Ayush Singh</a><br>
+            <br>Under Guidance of <br>Mrs. Reena Kothari
+        </p>
+    </footer>
+</body>
+</html>

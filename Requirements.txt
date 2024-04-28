@@ -1,0 +1,12 @@
+Modules
+1) numpy
+2) pandas
+3) nltk
+4) sklearn
+
+Systems
+1) jupyter notebook
+2) streamlit
+
+Description:
+Over in the project model.pkl and vectorizer.pkl are the models of the naive bayes algorithm. Similaryl mode_1.pkl and vectorizer_1.pkl are the models for the Logistic regression algorithms and model_2.pkl and vectorizer_2.pkl are of support vector machine (svm).
