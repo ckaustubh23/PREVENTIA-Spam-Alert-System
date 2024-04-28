@@ -9,10 +9,11 @@ from nltk.stem.porter import PorterStemmer
 
 app = Flask(__name__)
 
-# Load models and other resources
+# Loading naive bayes models for emails
 tfidf1 = pickle.load(open('C:/Users/KAUSTUBH/Desktop/Preventia/lib/naive_vectorizer.pkl','rb'))
 model1 = pickle.load(open('C:/Users/KAUSTUBH/Desktop/Preventia/lib/naive_model.pkl','rb'))
 
+# Loading svm models for sms
 tfidf2 = pickle.load(open('C:/Users/KAUSTUBH/Desktop/Preventia/lib/svm_vectorizer.pkl','rb'))
 model2 = pickle.load(open('C:/Users/KAUSTUBH/Desktop/Preventia/lib/svm_model.pkl','rb'))
 
