@@ -8,7 +8,7 @@ The project focuses on the detection of detection of content of the mateiral of 
 # Frontend Requirements and Libraries
 --> Flask (render_template, request), porterstemmer, string, nltk
 
-To run the project:
+# To run the project:
 Step1: Download the zip folder
 Step2: Unzip the folder
 Step3: Change the address of your system in the app.py file according to your system in the tfidf and model files
